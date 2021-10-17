@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Rendel's Website</title>
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+
+        <!-- Update these with your own fonts -->
+        <link href= "https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <!--div class="logo">
+                <img src="img/MTH 514 - Assignment 2 Q2B.png"> 
+            </div> -->
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#about " class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link"> Skills</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Portfolio</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+         <!-- Introduction -->
+         <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I'm <strong>Rendel Abrasia</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Aspiring Software Engineer</p>
+            <img src="img/Profile.jpg" alt="" class="intro__img">
+        </section>
+        
+      
+        <!-- About me -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">About Me</h2>
+            <p class="section__subtitle section__subtitle--about"></p>
+            
+            <div class="about-me__body">
+                <p>I am a Third Year Software Engineering Student at Ryerson University.  </p>
+               <p>I am a quick learner and can adapt to the working environment based on my previous experiences. 
+                 As a Software Engineer, I always try to think of ways to innovate and improve my understanding which I can apply to my future endeavors.
+                 My goal is to work as a Software Developer which includes Full-Stack Web Development, Data Science, Database Systems, and Machine Learning / AI. </p>
+            </div>
+            
+            <img src="img/software.jpg" alt="" class="about-me__img">
+         </section>
+         
+         <hr class="striped-border">
+         
+           <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">Technical Skills</h2>
+
+            <div class="services">
+                <div class="service">
+                    <h3>Languages</h3>
+                    <ul style="list-style: none;">
+                        <li>Java</li>
+                        <li>C/C++</li>
+                        <li>SQL</li>
+                        <li>HTML5/CSS3/JavaScript</li>
+                        <li>MATLAB</li>
+                        <li>VHDL</li>
+                        <li>Assembly Language</li>
+                    </ul>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3> Softwares </h3>
+                    <ul style="list-style: none;">
+                        <li>Visual Studio</li>
+                        <li>NetBeans IDE</li>
+                        <li>Code Blocks</li>
+                        <li>CodeWarriors</li>
+                        <li>Quartus</li>
+                        <li>SolidWorks</li>
+                    </ul>
+                </div> <!-- / service -->
+
+                <div class="service">
+                    <h3> Frameworks </h3>
+                    <ul style="list-style: none;">
+                        <li>Linux</li>
+                        <li>JUnit</li>
+                        <li>JavaFX</li>
+                        <li>Flask</li>
+                        <li>Bootstrap</li>
+                        
+                    </ul>
+                </div> <!-- / service -->
+               
+            </div> <!-- / services -->
+              
+            <a href="#work" class="btn">My Portfolio</a>
+        </section>
+        <hr class="striped-border">
+         <!-- My Work -->
+         <section class="my-work" id="work">
+             <h2 class="section__title">My Portfolio</h2>
+             <p class="section__subtitle section__subtitle--work"></p>
+             
+             <div class="portfolio">
+                 <!-- Portfolio item 01 -->
+                 <a href="portfolio-item.html" class="portfolio__item">
+                     <img src="img/bookstore.png" alt="" class="portfolio__img">
+                 </a>
+                 
+                 <!-- Portfolio item 02 -->
+                 <a href="portfolio-item2.html" class="portfolio__item">
+                     <img src="img/discord-logo.jpg" alt="" class="portfolio__img">
+                     
+                 </a>
+                 
+                 <!-- Portfolio item 03 -->
+                 <a href="portfolio-item3.html" class="portfolio__item">
+                     <img src="img/towers.jpeg" alt="" class="portfolio__img">
+                 </a>
+                 
+                 <!-- Portfolio item 04 -->
+                 <a href="portfolio-item4.html" class="portfolio__item">
+                     <img src="img/StateMachineCover.jpg" alt="" class="portfolio__img">
+                 </a>
+                 
+                 <!-- Portfolio item 05 -->
+                 <a href="portfolio-item5.html" class="portfolio__item">
+                     <img src="img/Movie.PNG" alt="" class="portfolio__img">
+                 </a>
+                 
+                 <!-- Portfolio item 06 -->
+                 <a href="portfolio-item6.html" class="portfolio__item">
+                     <img src="img/GPP.jpg" alt="" class="portfolio__img">
+                 </a>
+                 
+             </div>
+         </section>
+        
+         
+         <footer class="footer">
+            <hr class="striped-border">
+            <h3>Reach me at:</h3>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="mailto:rendelabrasia21gmail.com">
+                        <i class="fas fa-envelope"></i></a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link"href="https://github.com/rendelabrasia">
+                        <i class="fab fa-github"></i></a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="http://www.linkedin.com/in/rendelabrasia">
+                        <i class="fab fa-linkedin"></i></a>
+                </li>
+            </ul>
+        </footer>
+        
+        <script src="js/index.js"></script>
+
+    </body>
+</html>
